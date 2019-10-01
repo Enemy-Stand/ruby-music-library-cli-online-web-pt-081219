@@ -63,5 +63,6 @@ class MusicLibraryController
       Artist.all.sort{ |a, b| a.name <=> b.name }.uniq.each.with_index(1) do |a, i|
       puts "#{i}. #{a.name}"
     end
+    end
   end
 end
